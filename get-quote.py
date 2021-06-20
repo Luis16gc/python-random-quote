@@ -4,7 +4,8 @@ def main():
   quotes = f.readlines()
   f.close()
   last= 13
-  print(quotes[0,last])
+  rnd = random.randint(0, last)
+  print(quotes[rnd])
 
 if __name__== "__main__":
   main()
